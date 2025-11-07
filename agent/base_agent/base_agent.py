@@ -309,6 +309,10 @@ class BaseAgent:
                 "transport": "streamable_http",
                 "url": f"http://localhost:{os.getenv('TRADE_HTTP_PORT', '8002')}/mcp",
             },
+            "macd_strategy": {
+                "transport": "streamable_http",
+                "url": f"http://localhost:{os.getenv('MACD_STRATEGY_HTTP_PORT', '8006')}/mcp",
+            },
         }
 
     async def initialize(self) -> None:

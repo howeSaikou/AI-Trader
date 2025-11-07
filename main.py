@@ -26,6 +26,10 @@ AGENT_REGISTRY = {
         "module": "agent.base_agent_astock.base_agent_astock",
         "class": "BaseAgentAStock"
     },
+    "BaseAgentMACD": {
+        "module": "agent.base_agent.base_agent_macd",
+        "class": "BaseAgentMACD"
+    },
 }
 
 
